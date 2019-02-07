@@ -215,7 +215,7 @@ img.aligncenter {
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
-	color: #FFF;
+	color: #FFFFFF;
 }
 
 #menu a:hover {
@@ -223,6 +223,11 @@ img.aligncenter {
 }
 
 #menu .current_page_item a {
+	background: #FFFFFF;
+	color: #EA3323;
+}
+
+#menu .current_page_item a:hover {
 	background: #FFFFFF;
 	color: #EA3323;
 }
