@@ -19,7 +19,7 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	color: #2E9F13;
+	color: #2B6519;
 }
 
 h1 {
@@ -39,12 +39,9 @@ p, ul, ol {
 	line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
 	text-decoration: none;
-	color: #C62647;
+	color: #EA3323;
 }
 
 a:hover {
@@ -94,7 +91,6 @@ img.aligncenter {
 #wrapper {
 	margin: 0 auto;
 	padding: 0;
-	background: url(images/img03.gif) no-repeat center top;
 }
 
 /* Header */
@@ -193,7 +189,7 @@ img.aligncenter {
 	height: 56px;
 	margin: 0px auto;
 	padding: 20px 20px 0px 20px;
-	background: #F44C31;
+	background: #EA3323;
 }
 
 #menu ul {
@@ -222,14 +218,13 @@ img.aligncenter {
 	color: #FFF;
 }
 
-#menu .current_page_item a {
-	background: #FFFFFF;
-	color: #F44C31;
-}
-
 #menu a:hover {
 	text-decoration: none;
-	color: #FFF;
+}
+
+#menu .current_page_item a {
+	background: #FFFFFF;
+	color: #EA3323;
 }
 
 /* Page */
@@ -308,17 +303,6 @@ img.aligncenter {
 	text-align: justify;
 	margin-bottom: 25px;
 	padding: 10px 0px 0px 0px;
-}
-
-.links {
-	display: block;
-	width: 96px;
-	padding: 2px 0px 2px 0px;
-	background: #A53602;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 10px;
-	color: #FFFFFF;
 }
 
 /* Sidebar */
