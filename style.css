@@ -368,26 +368,15 @@ img.aligncenter {
 	text-decoration: underline;
 }
 
-/* Calendar */
+/* Commitee table */
 
-#calendar {
+table {
+    border-collapse: collapse;
+    border-spacing: 10px 0px;
+
 }
 
-#calendar_wrap {
-	padding: 20px;
-}
-
-#calendar table {
-	width: 100%;
-}
-
-#calendar tbody td {
-	text-align: center;
-}
-
-#calendar #next {
-	text-align: right;
-}
+td { padding-left: 8px; padding-right: 8px }
 
 /* Footer */
 
