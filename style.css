@@ -272,54 +272,6 @@ img.aligncenter {
   text-align: justify
 }
 
-.post {
-	clear: both;
-	padding-bottom: 10px;
-}
-
-.post .title {
-	padding-top: 10px;
-	letter-spacing: -2px;
-}
-
-.post .title a {
-	color: #1A1A1A;
-	border: none;
-}
-
-.post .meta {
-	padding-bottom: 10px;
-	text-align: left;
-	font-size: 11px;
-	font-style: italic;
-}
-
-.post .meta a {
-}
-
-.post .entry {
-	text-align: justify;
-	margin-bottom: 25px;
-	padding: 10px 0px 0px 0px;
-}
-
-.post .meta {
-	padding-bottom: 10px;
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-style: italic;
-}
-
-.post .meta a {
-}
-
-.post .entry {
-	text-align: justify;
-	margin-bottom: 25px;
-	padding: 10px 0px 0px 0px;
-}
-
 /* Sidebar */
 
 #sidebar {
@@ -407,4 +359,20 @@ td { padding-left: 8px; padding-right: 8px }
 
 #footer a {
 	color: #8F8F8F;
+}
+
+#accepted {
+    padding-top: 8px;
+}
+
+#accepted li {
+
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+
+#accepted li > div:nth-of-type(1) {
+    font-style: italic;
+    font-weight: bold;
 }
