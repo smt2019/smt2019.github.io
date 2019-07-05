@@ -361,18 +361,18 @@ td { padding-left: 8px; padding-right: 8px }
 	color: #8F8F8F;
 }
 
-#accepted {
+.papers {
     padding-top: 8px;
 }
 
-#accepted li {
+.papers li {
 
     list-style-type: none;
     padding-bottom: 5px;
 }
 
 
-#accepted li > div:nth-of-type(1) {
+.papers li > div:nth-of-type(1) {
     font-style: italic;
     font-weight: bold;
 }
